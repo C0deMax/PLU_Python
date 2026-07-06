@@ -1,0 +1,10 @@
+1- c Linked List
+2- b Push
+3- c Dequeue
+4- c Root Node
+5- b Nodes and Edges
+6- c Stack
+7- a Queue
+8- c Data and a reference to the next node
+9- c Leaf Node
+10- b BFS (Breadth-First Search)
