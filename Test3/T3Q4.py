@@ -5,18 +5,17 @@ def bubbleSort(arr):
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
 
 
+timings = []
 
-marks = []
-
-n = int(input("Enter number of students: "))
+n = int(input("Enter number of participants: "))
 
 for i in range(n):
-    mark = int(input("Enter mark: "))
-    marks.append(mark)
+    time = float(input("Enter timing: "))
+    timings.append(time)
 
-bubbleSort(marks)
+bubbleSort(timings)
 
-print("Marks in Ascending Order:")
+print("Race Timings (Fastest to Slowest):")
 
-for i in marks:
+for i in timings: 
     print(i, end=" ")
