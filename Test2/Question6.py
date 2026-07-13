@@ -23,4 +23,4 @@ s.push(20)
 
 s.pop()
 
-s.display()
+s.display() 
