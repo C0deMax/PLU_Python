@@ -9,9 +9,10 @@ def binarySearch(arr, key):
             return mid
         elif arr[mid] < key:
             low = mid + 1
+
         else:
             high = mid - 1
-
+            
     return -1
 
 
